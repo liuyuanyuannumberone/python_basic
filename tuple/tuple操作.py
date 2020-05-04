@@ -18,13 +18,15 @@ print(len(t1))  # 4
 
 t2 = ('aa', 'bb', ['cc', 'dd'])
 print(t2[2])  # ['cc', 'dd']
-print(t2[2][0]) # cc
+print(type(t2[2]))
+print(t2[2][0])  # cc
 t2[2][0] = 'TOM'  # 可以
 # t2[2]=[];  # error TypeError: 'tuple' object does not support item assignment
 '''
 元组内的数据不允许修改
 '''
 print(t2)  # ('aa', 'bb', ['TOM', 'dd'])
+
 
 
 
