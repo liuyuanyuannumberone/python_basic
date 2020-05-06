@@ -6,6 +6,7 @@ while i <= 5:
     print(f'吃了第{i}个苹果')
     i += 1
 
+print("==========")
 i = 1
 while i <= 5:
     if i == 3:
