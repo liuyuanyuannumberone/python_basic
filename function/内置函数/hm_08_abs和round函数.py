@@ -3,8 +3,6 @@
 
 # round()： 四舍五入
 
-
-print("4444444444")
 print(round(1.2))
 print(round(1.9))
 
