@@ -3,15 +3,13 @@ mystr = "hello world and itcast and itheima and Python"
 # replace(旧字串，新字串，替换次数) 把and换成he
 # 原有字符串的数据并没有做到修改,返回值是修改后的字符串
 new_str = mystr.replace('and', 'he')
-print(new_str)
+print(new_str)   # 全部替换 hello world he itcast he itheima he Python
 
 new_one = mystr.replace('and', 'he', 1)
-print(new_one)
-
-# 数据是否可以改变划分为 可变类型 和 不可变类型
+print(new_one)  # 只替换了第一个 hello world he itcast and itheima and Python
 
 
-#  split(分割字符，分割字符出现的此时) 返回一个列表, 丢失分割字符
+#  split(分割字符，分割字符出现的次数) 返回一个列表, 丢失分割字符
 list1 = mystr.split('and')
 list2 = mystr.split('and', 2)
 print(list1)  # ['hello world ', ' itcast ', ' itheima ', ' Python']

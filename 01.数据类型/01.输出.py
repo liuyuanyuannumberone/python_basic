@@ -14,7 +14,7 @@ print('名字%s' % name)  # 名字TOM -- 字符串 %s
 print('我的名字是%s，今年%d岁了' % (name, age))
 print('我的名字是%s，明年%d岁了' % (name, age + 1))
 
-print(f'我的名字是{name}，今年{age}岁了')  # 语法 f'{表达式}'
+print(f'我的名字是{name}，今年{age}岁了')  # f'{表达式}'
 
 print('hello\nPython')
 print('\tabcd')  # 一个tab键4个空格的距离

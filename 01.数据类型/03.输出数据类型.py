@@ -1,17 +1,13 @@
-print("hello world")  # 注意缩进
-# print("hello world")
-
-
-schoolName = 'tom'
-print(schoolName)
 
 """
 多行注释
 """
 
+
 '''
 多行注释
 '''
+
 num1 = 1  # int整型
 print(type(num1))  # <class 'int'>
 

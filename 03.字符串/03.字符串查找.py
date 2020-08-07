@@ -1,6 +1,7 @@
 mystr = "hello world and itcast and itheima and Python"
 
-#  find(字串，开始位置的下标，结束位置的下标)  检测子穿串是否包含在字符串中，如果在返回这个字串的下标，否则返回-1
+#  find(字串，开始位置的下标，结束位置的下标)
+#  检测子穿串是否包含在字符串中，如果在返回这个字串的下标，否则返回-1
 print(mystr.find('and'))  # 12
 print(mystr.find('and', 15, 30))  # 23
 print(mystr.find('ands'))  # -1 , ands子串不存在
